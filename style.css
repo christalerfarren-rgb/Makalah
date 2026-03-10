@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;      
+    top: 0;               
+    width: 100%;          
+    background-color: white; 
+    display: flex;        
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 15px 50px;   
+    z-index: 1000;        
+}
+
+
+header img {
+    height: 40px; 
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 0 15px;
+    font-family: 'Days One', sans-serif;
+    font-size: 14px;
+}
+
+
+.hero {
+    height: 100vh; /* MAKES FULL SCREEN, VH = viewport height (1vh = 1% browser height) */
+    
+    /* Dark Overlay */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('ChatGPT.png'); /*geminibackround gradient help */
+    
+    background-size: cover;     /* Image FIT the WHOLE AREA */
+    background-position: center; 
+    
+    display: flex;
+    align-items: center;       
+    padding-left: 10%;         
+    color: white;              
+}
+
+.welcome h1 {
+    font-family: 'Days One';
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.welcome p {
+    font-family: 'ABeeZee';
+    font-size: 18px;
+    max-width: 500px;         
+    margin-bottom: 20px;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #0066b1; /* Blue */
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+section{
+    min-height: 100vh;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* Home */
+#home{
+    background-image: url("Gambar\ 1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    background-color: rgb(202, 98, 98);
+}
+
+/* How */
+#how{
+    background-image: url("images/apple-kombucha.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    background-color:rgb(224, 118, 52);
+}
+
+/* About */
+#about{
+    background-image: url("images/apple-kombucha.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    background-color: rgb(231, 231, 140);
+}
+
+/* Contact */
+#contact{
+    background-image: url("images/apple-kombucha.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right center;
+    background-color: rgb(187, 216, 130);
+}
+
+
+
+
+
+
+
